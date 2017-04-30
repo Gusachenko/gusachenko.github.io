@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>GGusachenko</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#673ab7">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="assets/manifest.json">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="styles.1e8a34645d6c4e2aa2db.bundle.css" rel="stylesheet"/></head>
+<body>
+  <app-root>Loading...</app-root>
+
+
+  <!--Offline-->
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+      console.log('Service Worker registered');
+    }).catch(function(err) {
+      console.log('Service Worker registration failed: ', err);
+    });
+  }
+  </script>
+<script type="text/javascript" src="inline.5667415c359c587e409f.bundle.js"></script><script type="text/javascript" src="polyfills.2d45a4c73c85e24fe474.bundle.js"></script><script type="text/javascript" src="vendor.f5bc15daf5b32e4edc53.bundle.js"></script><script type="text/javascript" src="main.48ed16679503c2ee550c.bundle.js"></script></body>
+</html>
