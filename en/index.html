@@ -5,7 +5,7 @@
   <title>sample-typescript-starter</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f95759">
+  <meta name="theme-color" content="#ffffff">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
 
@@ -22,15 +22,17 @@
     <div class="main" role="main">
       <div class="author">
         <a href="." title="GLEB GUSACHENKO">
-          <span>Глеб Гусаченко</span>
+          <span>Gleb Gusachenko</span>
         </a>
       </div>
 
 
+
+
       <div class="switch-lang">
         <ul>
-          <li><a href="en/index.html">en.</a></li>
-          <li class="active"><a href=".">ru.</a></li>
+          <li class="active"><a href="en/index.html">en.</a></li>
+          <li><a href=".">ru.</a></li>
         </ul>
       </div>
 
@@ -56,19 +58,19 @@
 
 
           <div class="title-hello">
-            Здравствуйте<span>.</span>
+            Hello<span>.</span>
           </div>
           <div class="title-text">
-            Меня зовут <b>Глеб</b>. Я веб разработчик из Санкт-Петербурга.</br>
-            Я люблю кататься на велосипеде, заниматься фотосъемкой,  плавать в море и мне нравится итальянская паста.
-            И еще я люблю создавать <b>прогрессивные веб приложения</b>.</br>
+            My name is <b>Gleb</b>. I'm a Web Developer from Saint-Petersburg.</br>
+            I love cycling on the bicycle, make photography, swiming in the sea and i love eating Italian pasta.
+            And create <b>progressive web applications</b>, of course.</br>
           </div>
 
 
 
         <div class="info">
           <div class="block-info float-left">
-            <span class="block-info__title-text"><i class="material-icons">center_focus_strong</i> Профессиональные навыки</span>
+            <span class="block-info__title-text"><i class="material-icons">center_focus_strong</i> Professional skills</span>
             <ul>
               <li>
                 HTML & CSS, Sass, Bootstrap
@@ -77,7 +79,7 @@
                 Javascript, JQuery
               </li>
               <li>
-                Гибкие и отзывчивые веб интерфейсы, SVG
+                Responsive and adaptive design, SVG
               </li>
               <li>
                 Typescript, Angular, Material Design
@@ -90,12 +92,12 @@
 
 
           <div class="block-info float-right">
-            <span class="block-info__title-text"><i class="material-icons">school</i> Образование</span>
+            <span class="block-info__title-text"><i class="material-icons">school</i> Educational</span>
             <img src="assets/images/leti-logo.png" alt="leti-logo" title="leti-logo"/>
             <div class="block-info__body-text">
-              <b>Высшее 2016</b></br>
-              Санкт-Петербургский государственный электротехнический университет "ЛЭТИ".</br>
-              <span>Факультет компьютерных технологий и информатики "Программная инженерия"</span>
+              <b>Master's degree 2016</b></br>
+              Saint-Petersburg Electrotechnical University "LETI".</br>
+              <span>Faculty of Computer Science and Technology "Software Engineering"</span>
             </div>
           </div>
 
@@ -146,7 +148,13 @@
 
 
     </div>
-  <!--Offline-->
+    
+
+
+  <!--<p id="greeting">Loading ...</p>-->
+
+
+<!--Offline-->
   <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('service-worker.js').then(function(registration) {

@@ -1,34 +1,25 @@
 {
-  "name": "ng-material-starter",
-  "short_name": "NgMatStart",
+  "name": "Gusachenko Gleb portfolio",
+  "short_name": "Gusachenko",
   "version": "0.1",
-	"manifest_version": 1,
+  "manifest_version": 1,
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#673ab7",
-  "description": "A simply material cli starter.",
+  "background_color": "#f8f8f8",
+  "theme_color": "#f95759",
+  "description": "sample-typescript-starter",
   "icons": [
-		 {
-    "src": "icons/apple-touch-icon-168.png",
-    "sizes": "168x168",
-    "type": "image/png"
-  },
-  {
-    "src": "icons/apple-touch-icon-180.png",
-    "sizes": "180x180",
-    "type": "image/png"
-  },
-  {
-    "src": "icons/apple-touch-icon-192.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  },
-   {
-    "src": "icons/apple-touch-icon-256.png",
-    "sizes": "256x256",
-    "type": "image/png"
-  }],
+    {
+        "src": "images/icons/apple-touch-icon-180x180.jpg",
+        "sizes": "180x180",
+        "type": "image/jpg"
+    },
+    {
+        "src": "images/icons/android-chrome-192x192.jpg",
+        "sizes": "192x192",
+        "type": "image/jpg"
+    }
+  ],
   "related_applications": [{
     "platform": "web"
   }]
