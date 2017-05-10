@@ -1,13 +1,13 @@
 {
   "name": "Gusachenko Gleb portfolio",
-  "short_name": "Gusachenko",
+  "short_name": "Gusachenko G.A.",
   "version": "0.1",
   "manifest_version": 1,
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f8f8f8",
   "theme_color": "#f95759",
-  "description": "sample-typescript-starter",
+  "description": "Gusachenko Gleb portfolio",
   "icons": [
     {
         "src": "images/icons/apple-touch-icon-180x180.jpg",
