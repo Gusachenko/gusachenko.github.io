@@ -1,0 +1,51 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/inline.318b50c57b4eba3d437b.bundle.js",
+        "/main.db46c4303bc85bd47214.bundle.js",
+        "/polyfills.f10e9053a0bd28daa71d.bundle.js",
+        "/styles.f6f5473bd8ca5075c1a2.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/angular-white-transparent.svg",
+        "/assets/github-circle-black-transparent.svg",
+        "/assets/manifest.json",
+        "/assets/icons/apple-touch-icon-168.png",
+        "/assets/icons/apple-touch-icon-180.png",
+        "/assets/icons/apple-touch-icon-192.png",
+        "/assets/icons/apple-touch-icon-256.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/assets/angular-white-transparent.svg": "3d3538c3683d6937a39c92d17a27d2637fba70f5",
+    "/main.db46c4303bc85bd47214.bundle.js": "c69fb365bc0f96335c41ce0956d25e9fb688c87a",
+    "/assets/github-circle-black-transparent.svg": "db3512a737ef6f4ac3aea0abc5e24cb8bf43a9a7",
+    "/polyfills.f10e9053a0bd28daa71d.bundle.js": "7d196508d404ae1bbc52f1b216c360057fa0637d",
+    "/assets/manifest.json": "1b5f8df6d0924393374e8e0a7b935eea72aa9cd5",
+    "/styles.f6f5473bd8ca5075c1a2.bundle.css": "4ab10ce6c7d0c816a62e5a82ba1b74706dbe7b0c",
+    "/assets/icons/apple-touch-icon-168.png": "793853f434084c31c974c379cd379fa4c9f45edf",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/icons/apple-touch-icon-180.png": "0f9ed00f3f3f35cfd8b5eeb72c6f2dadb56d1a74",
+    "/index.html": "e06fa5a82d85b382b64639ea968be80d5f50f5b2",
+    "/assets/icons/apple-touch-icon-192.png": "7aa43fc83aaa6c4b7a4d46bca0c3cb481dcfed06",
+    "/assets/icons/apple-touch-icon-256.png": "0153aaed435c32f52527cd702b55f2dc29f160d8"
+  }
+}
