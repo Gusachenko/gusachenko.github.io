@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/inline.318b50c57b4eba3d437b.bundle.js",
+        "/main.b753c21e096fa7ceff30.bundle.js",
+        "/polyfills.0d99a3dfe52718979fcf.bundle.js",
+        "/styles.f6762e2ae77b2cccccf5.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/manifest.json",
+        "/assets/images/leti-logo.png",
+        "/assets/images/leti-logo3.png",
+        "/assets/images/leti-logo_first.png",
+        "/assets/images/portrait.jpg",
+        "/assets/images/portrait_first.jpg",
+        "/assets/images/icons/android-chrome-192x192.jpg",
+        "/assets/images/icons/apple-touch-icon-180x180.jpg",
+        "/assets/images/icons/facebook-f.svg",
+        "/assets/images/icons/favicon.ico",
+        "/assets/images/icons/flickr.svg",
+        "/assets/images/icons/github.svg",
+        "/assets/images/icons/google-plus-g.svg",
+        "/assets/images/icons/ic_center_focus_strong_black_24px.svg",
+        "/assets/images/icons/ic_school_black_24px.svg",
+        "/assets/images/icons/instagram.svg",
+        "/assets/images/icons/twitter.svg",
+        "/assets/images/icons/vk.svg",
+        "/assets/images/icons/youtube.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/assets/manifest.json": "adb4f533592b84ccf68a9d2ace1164ed05922249",
+    "/main.b753c21e096fa7ceff30.bundle.js": "75249cb60d18d3814a5608743bda9f1a0490d3eb",
+    "/assets/images/leti-logo.png": "72cf9577def7bb8de9f764daebe4d114da472a2a",
+    "/polyfills.0d99a3dfe52718979fcf.bundle.js": "cd69cf32758196c31f8a5da6d79a1a754e49d6a5",
+    "/assets/images/leti-logo3.png": "f48533c228ee73d57b6209c3693e7e15e2ea4110",
+    "/styles.f6762e2ae77b2cccccf5.bundle.css": "968af29566f87a212676ffd0f9592376c8b9eb2a",
+    "/assets/images/leti-logo_first.png": "26425d92d7eea251acada87c67d8aed555ccac01",
+    "/favicon.ico": "563551114152aa642940a0b658c94cf7af1321d1",
+    "/assets/images/portrait.jpg": "1c61a9c5481ede4e3b1ca570fbae2595ae2e7059",
+    "/index.html": "c3ca763fecb508ed6251a8b7346d4b630ff77d9a",
+    "/assets/images/portrait_first.jpg": "d088c15524f5298efc69fce780a8202e141f8752",
+    "/assets/images/icons/android-chrome-192x192.jpg": "9510dc19a98952d73f639738addb3ee0a37c2bbd",
+    "/assets/images/icons/apple-touch-icon-180x180.jpg": "721dcd1e55c59fe55a9f47e1a2e576fec26d42fd",
+    "/assets/images/icons/facebook-f.svg": "2dab435110b60c194039a232b4a4999d7590b97f",
+    "/assets/images/icons/favicon.ico": "563551114152aa642940a0b658c94cf7af1321d1",
+    "/assets/images/icons/flickr.svg": "3fb1528ed25287ab81675aa1a8787d4913935479",
+    "/assets/images/icons/github.svg": "7e33e876f9c30d36d70f281a9f326f931b9e75a9",
+    "/assets/images/icons/google-plus-g.svg": "28cb9692d7d738bcf562de4217581d72623f9111",
+    "/assets/images/icons/ic_center_focus_strong_black_24px.svg": "d44f426799f97e651a43f97123bcd01f6effc322",
+    "/assets/images/icons/ic_school_black_24px.svg": "5d0db277280132001bb377fefd26bbcaa4966706",
+    "/assets/images/icons/instagram.svg": "4a811c891a31ad12eed36ba6973e0fadc207ef26",
+    "/assets/images/icons/twitter.svg": "bdad1062f82cd42ab477e11f5b9662b4d373c698",
+    "/assets/images/icons/vk.svg": "b5a61c31c262c8c17c920ce4289da085d8b72dfa",
+    "/assets/images/icons/youtube.svg": "93ada7301b1dc13150d02718d1808f0975e6a1c5"
+  }
+}
