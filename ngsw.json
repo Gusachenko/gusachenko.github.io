@@ -27,6 +27,7 @@
         "/assets/images/icons/ic_center_focus_strong_black_24px.svg",
         "/assets/images/icons/ic_school_black_24px.svg",
         "/assets/images/icons/instagram.svg",
+        "/assets/images/icons/linkedin.svg",
         "/assets/images/icons/twitter.svg",
         "/assets/images/icons/vk.svg",
         "/assets/images/icons/youtube.svg",
@@ -52,6 +53,7 @@
     "/assets/images/icons/ic_center_focus_strong_black_24px.svg": "d44f426799f97e651a43f97123bcd01f6effc322",
     "/assets/images/icons/ic_school_black_24px.svg": "5d0db277280132001bb377fefd26bbcaa4966706",
     "/assets/images/icons/instagram.svg": "4a811c891a31ad12eed36ba6973e0fadc207ef26",
+    "/assets/images/icons/linkedin.svg": "93a0655578d837a4fb57648a5fa461a350fd8268",
     "/assets/images/icons/twitter.svg": "bdad1062f82cd42ab477e11f5b9662b4d373c698",
     "/assets/images/icons/vk.svg": "b5a61c31c262c8c17c920ce4289da085d8b72dfa",
     "/assets/images/icons/youtube.svg": "93ada7301b1dc13150d02718d1808f0975e6a1c5",
@@ -62,7 +64,7 @@
     "/assets/images/portrait_first.jpg": "d088c15524f5298efc69fce780a8202e141f8752",
     "/assets/manifest.json": "adb4f533592b84ccf68a9d2ace1164ed05922249",
     "/favicon.ico": "563551114152aa642940a0b658c94cf7af1321d1",
-    "/index.html": "409ff764fdc42bcf2501c16889089468ea05a1f1"
+    "/index.html": "4ba7a12c2450825f9aae242bb5e92b6d5d7a7321"
   },
   "navigationUrls": [
     {
