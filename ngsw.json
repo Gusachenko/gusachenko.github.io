@@ -1,11 +1,15 @@
 {
   "configVersion": 1,
+  "timestamp": 1612691664614,
   "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/favicon.ico",
         "/index.html"
@@ -15,7 +19,10 @@
     {
       "name": "assets",
       "installMode": "lazy",
-      "updateMode": "prefetch",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/assets/images/icons/android-chrome-192x192.jpg",
         "/assets/images/icons/apple-touch-icon-180x180.jpg",
@@ -64,7 +71,7 @@
     "/assets/images/portrait_first.jpg": "d088c15524f5298efc69fce780a8202e141f8752",
     "/assets/manifest.json": "adb4f533592b84ccf68a9d2ace1164ed05922249",
     "/favicon.ico": "563551114152aa642940a0b658c94cf7af1321d1",
-    "/index.html": "4ba7a12c2450825f9aae242bb5e92b6d5d7a7321"
+    "/index.html": "c14b87ef3abaebd9811ae48437db5295709df83b"
   },
   "navigationUrls": [
     {
@@ -73,15 +80,16 @@
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
